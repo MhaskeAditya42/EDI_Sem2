@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between; 
+    /* space between elements */
+    align-items: center;
+    /* align items at the center */
+}
+
+/* To make the navigation items in a row */
+div.navLinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+/* To edit the anchor tags in nav bar */
+div.navLinks ul li a{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.centerText {
+    padding-top: 100px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+}
+div.centerText h1{
+    padding-bottom: 100px;
+}
+a.decomposition{
+    font-size: 40px;
+    color: green;
+    padding-right: 200px;
+}
+a.recycling{
+    font-size: 40px;
+    color: green;
+}
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}

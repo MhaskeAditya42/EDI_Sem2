@@ -1,0 +1,71 @@
+
+.regreen{
+    height: 200px;
+    width: 200px;
+    margin-left: 470px;
+    margin-top: 50px;
+    /* background-color: LIGHTGREY; */
+    /* border-radius: 10%; */
+    /* border-bottom-right-radius: 47%; */
+}
+
+.container1{
+    display:flex;
+    flex-direction:column;
+}
+.container2{
+    display:flex;
+    flex-direction:column;
+}
+.list{
+    color:black;
+    background-color:rgb(252, 252, 151) ;
+    border-radius: 10px;
+    /* border-top-left-radius: 30px; */
+    /* border:solid; */
+    margin:1%;
+    padding:2.5%;
+    font-size: large;
+}
+.list2{
+    color:black;
+    background-color:skyblue ;
+    border-radius: 10px;
+    /* border-top-left-radius: 30px; */
+    /* border:solid; */
+    margin:1%;
+    padding:2.5%;
+    font-size: large
+}
+.list3{
+    color:black;
+    background-color:greenyellow ;
+    border-radius: 10px;
+    /* border-top-left-radius: 30px; */
+    /* border:solid; */
+    margin:1%;
+    padding:2.5%;
+    font-size: large
+}
+.no{
+    color:black;
+    background-color:rgb(252, 252, 161) ;
+    border-radius: 10px;
+    /* border-top-left-radius: 30px; */
+    /* border:solid; */
+    margin:1%;
+    padding:2.5%;
+    font-size: large;
+}
+.head{
+	    color:black;
+		font-family: 'Dancing Script', cursive;
+		font-size: 40px;
+		margin-bottom: 30px;
+}
+.head2
+{
+	color: blue;
+	font-size: 30px;
+	margin-bottom: 15px;
+}

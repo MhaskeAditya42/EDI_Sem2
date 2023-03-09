@@ -1,0 +1,922 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    button.button1{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        border: 2px solid black;
+        padding: 12px 34px;
+        font-size: 20px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    /* hover effect when we click on button */
+    button.button1:hover{
+        border: 2px solid black;
+        background: #C1DEAE;
+        transition: 1s;
+    }
+
+a.Logo{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgreen;
+    margin-left: 490px;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: block;
+    
+}
+section.header {
+
+    height: 700px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+/* ----------stay on top?-------------- */
+
+.navLinks {
+    border-radius: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: rgb(103, 134, 103);
+    position: fixed;
+    top: 0; 
+    width: 90%; 
+    text-align: center;
+  }
+  
+  .navLinks a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navLinks a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+  }
+
+section.aboutRGW{ 
+    height: 500px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    /* height: 100vh;
+    width: 100%;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; */
+    
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between; 
+    /* space between elements */
+    align-items: center;
+    /* align items at the center */
+}
+
+/* To make the navigation items in a row */
+div.navLinks ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+/* To edit the anchor tags in nav bar */
+div.navLinks ul li a:link{
+    color: darkgreen;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* hover (after) effect on nav bar */
+
+/* div.navLinks ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: darkgreen;
+    display: block;
+    margin: auto;
+}
+
+div.navLinks ul li:hover::after{
+    width: 100%;
+    transition: 0.5s;
+} */
+
+h1.mainHead{
+    color: rgb(103, 134, 103);
+}
+
+div.aboutRGW{
+    text-align: center;
+}
+div.aboutRGW h1{
+
+    font-size: 60px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+div.aboutRGW p{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+a.button1{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+/* hover effect when we click on button */
+a.button1:hover{
+    border: 2px solid black;
+    background: #C1DEAE;
+    transition: 1s;
+}
+/* to look good on mobile phone screen */
+
+
+/* @media(max-width: 700px){
+    div.aboutRGW h1{
+    font-size: 40px;
+    }
+    div.navLinks ul li{
+        display: block;
+    }
+    div.navLinks{
+        position: absolute;
+        background: white;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+    }    
+
+} */
+
+
+/* --------------Category section---------------- */
+
+
+
+section.categories{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}    
+section.categories h1{
+    font-size: 50px;
+}
+section.categories p{
+    color: rgb(1, 49, 1);
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 20px;
+
+}
+section.categories h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.row{
+    margin-top: 5%;
+    /* arrange it in flex pattern */
+    display: flex;
+    /* align items at center */
+    justify-content: space-between;
+}
+.cat-col{
+    /* to give space */
+    flex-basis: 31%;
+    background: #D3E4CD;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+}
+
+/* to give this flex a hover effect with a shadow */
+.cat-col:hover{ border: 2px solid darkolivegreen;
+    background: #C1DEAE;
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px black;
+}
+
+
+/* --------------New section for join us and register----------- */
+
+section.register h1{
+    font-size: 50px;
+}
+section.register h2{
+    font-size: 29px;
+    padding-bottom: 20px;
+}
+section.register{
+    width: 80%;
+    margin: 100px auto;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.register {
+    color: black;
+}
+
+div.reg{
+    padding: 10px 20px;
+}
+div.reg h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+form.reg input, form.reg textarea{
+    text-align: center;
+    width: 60%;
+    padding: 10px;
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+form.reg button{
+    margin: 20px;
+}
+
+/* ------------------Review Section -------------------*/
+
+section.reviews h1{
+    font-size: 50px;
+}
+section.reviews h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: darkslategray
+}
+section.reviews{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    background-color: #FFEDDB;
+    margin-bottom: 100px;
+}
+div.review-col{
+    padding-top: 50px;
+    flex-basis: 31%;
+    background: #EDCDBB;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+}
+
+div.review-col:hover{ border: 2px solid rgb(250, 177, 177);
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px black;
+}
+
+/* ------------------Footer ------------- */
+
+
+section.footer h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: orangered;
+}
+section.footer{
+    width: 100%;
+    font-weight: 500;
+    padding-bottom: 40px;
+    background-color: #C1DEAE;
+    padding-top: 30px;
+}
+
+div.footerDisplay{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+div.footer{
+    padding-top: 50px;
+    flex-basis: 31%;
+    background: white;
+    margin-bottom: 5%;
+    text-align: left;
+    padding: 25px;
+}
+
+
+ul.qL li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: orangered;
+    display: block;
+    transition: 0.2s;
+}
+
+ul.qL li:hover::after{
+    width: 10%;
+}
+
+div.icons{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+div.icons .fa{
+    padding-bottom: 30px;
+    margin: 10px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+input.email{
+    color: gray;
+    border: 2px solid rgb(114, 112, 112);
+    height: 40px;
+    text-align: center;
+}
+
+button.submit{
+    background-color: rgb(255, 199, 179);
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+/*----------------------NEW PAGE - About (Get Started)--------------- */
+
+section.sub-header{
+        height: 300px;
+        width: 100%;
+        background-image: url(bg10.webp);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        margin-bottom: 30px;
+        background-color: white;
+}
+
+section.recycle{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    height: 450px;
+    /* background-image: url(bg8.jpg);
+    background-position: center;
+    background-size: cover; */
+    position: relative;
+}
+
+/* 
+section.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: url(img7.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+section.sub-header h1{
+    font-size: 50px;
+    padding-top: 50px;
+} */
+
+
+div.centerText {
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+    margin: auto;
+}
+div.centerText h1{
+    padding-bottom: 30px;
+}
+div.centerText h2{
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+a.decomposition{
+    font-size: 50px;
+    color: rgb(114, 97, 0); 
+    margin: 100px;
+}
+a.recycling{
+    font-size: 50px;
+    color: rgb(117, 100, 0);
+    margin: 100px;
+}
+
+
+/* a.decomposition::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+}
+
+a.decomposition:hover::after{
+    width: 70%;
+    transition: 1s;
+}
+
+a.recycling::after{
+    content: '';
+    width: 0;
+    height: 5px;
+    background: goldenrod;
+    display: block;
+    margin: auto;
+}
+
+a.recycling:hover::after{
+    width: 70%;
+    transition: 1s;
+} */
+
+section.aboutRecycle{
+    background-color: #FEFFDE;
+}
+h3.big{
+    font-size: 30px;
+    color: green;
+    text-align: left;
+    padding-left: 350px;
+    padding-bottom: 20px;
+}
+
+
+section.aboutRecycle h2{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+p.recycle{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: darkgreen;
+    text-align: center;
+}
+p.decompose{
+    font-size: 35px;
+    color: darkgreen;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ol.recycle{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 350px;
+}
+ol.decompose{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 350px;
+    padding-bottom: 50px;
+}
+
+
+/* ---------------Footer---------------- */
+
+section.footer-about h3{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+section.footer-about {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+div.icons .fa{
+    color: green;
+    padding-bottom: 30px;
+    margin: 13px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+
+/* -------------------------New Page - Decomposition-------------------- */
+
+
+/* ------Section for about decomposition---- */
+
+section.header-DR {
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+section.aboutDecomposition div{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+h1.header1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: goldenrod;
+}
+
+
+/* -----Section for Cards-------- */
+
+
+section.decompCards h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+section.decompCards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: #90E0EF;
+    width: 450px;
+    height: 380px;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+p.cardPara{
+    padding-bottom: 26px;
+    font-size: 18px;
+}
+
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px;
+}
+
+.card:hover{
+    background-color: lightslategray;
+    color: white;
+    transform: scale(1.08);
+    transition: 0.1s;
+}
+
+.dec1{
+    background-image: url("plastic.jpg");
+}
+.dec2{
+    background-image: url("plastic.jpg");
+}
+.dec3{
+    background-image: url("plastic.jpg");
+}
+.dec4{
+    background-image: url("plastic.jpg");
+}
+
+/* -------------------------------NEW PAGE RECYCLING----------------------------- */
+
+section.aboutRecycling div{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+h1.header1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: goldenrod;
+}
+
+
+/* -----Section for Cards-------- */
+
+
+section.recycleCards h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+section.recycleCards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: #D1D1D1;
+    width: 450px;
+    height: 380px;
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+p.cardPara{
+    padding-bottom: 26px;
+    font-size: 18px;
+}
+
+
+.card-image{
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px;
+}
+
+.card:hover{
+    background-color: #7882A4;
+    color: white;
+    transform: scale(1.08);
+    transition: 0.1s;
+}
+
+.dec1{
+    background-image: url("plastic.jpg");
+}
+.dec2{
+    background-image: url("battery-recycling.jpg");
+}
+.dec3{
+    background-image: url("recycle-cardboard.jpg");
+}
+.dec4{
+    background-image: url("recycle-glass.jpg");
+}
+.dec5{
+    background-image: url("recycle-metal.jpg");
+}
+.dec6{
+    background-image: url("recycle-paper.jpg");
+}
+.dec7{
+    background-image: url("recycle-textile.webp");
+}
+.dec8{
+    background-image: url("recycle-tires.jpg");
+}
+
+/* --------------------------------New page - About ReGreen Works (Blog page type)-------------------------- */
+
+section.header-AboutRGW{
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+h2.RGW{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section.content{
+    width: 80%;
+    margin: auto;
+}
+
+div.left{
+    flex-basis: 55%;
+}
+div.left img{
+    width: 100%;
+}
+div.right{
+    margin-left: 40px;
+}
+div.right img{
+    width: 100%;
+}
+
+/* New Section : Comments */
+
+div.commentBox{
+    border: 2px solid orangered;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+div.commentBox h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+form.comments input, form.comments textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: rgb(235, 233, 233);
+}
+
+form.comments button{
+    margin: 20px;
+}
+
+
+/* -----------------------------New page - Contact Us------------------------------- */
+
+section.contact-us-header {
+
+    height: 500px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+div.row h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.contactUs{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 45%;
+    margin-bottom: 30px;
+}
+div.contact-col div{
+    align-items: center;
+    margin-bottom: 40px;
+}
+div.contact-col div .fa{
+     font-size: 25px;
+     color: goldenrod;
+     margin: 10px;
+}
+
+div.contact-col input, div.contact-col textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid goldenrod;
+    box-sizing: border-box;
+}
+div.contact-col button{
+    text-align: center;
+    margin-right: 30px;
+}
+
+img.img-contact{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+
+
+/* ---------------------------------New Page - FAQ------------------------------------------- */
+
+section.faqBody{
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #C1DEAE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.faqContainer{
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 200px;    
+}
+
+div.accordion-item{
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding: 2 0px;
+    box-shadow: 5px 2px 5px darkolivegreen;
+}
+
+a.accordion-link{
+    color: darkolivegreen;
+    text-decoration: none;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+
+div.answer{
+    font-size: 15px;
+    position: relative;
+    background-color: lightgray;
+    padding: 20px;
+    font-size: 17px;
+}
+
+
+section.header-extra {
+    height: 450px;
+    width: 100%;
+    background-image: url(bg10.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 5px;
+    background-color: white;
+}
