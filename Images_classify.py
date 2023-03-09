@@ -1,5 +1,5 @@
+import numpy as np
+print(np.zeros(20))
 
 print("Hello World ")
 print("New line")
-
-print("Namaste aapka swagat hain nayi github repo main")
