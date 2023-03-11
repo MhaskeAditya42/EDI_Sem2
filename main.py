@@ -13,11 +13,11 @@ while True:
 
     predection = Classifier.getPrediction(img)
     print(predection)
-
     imgBackground[148:148+340, 159:159+454] = imgResize
 
     # Display
     # cv2.imshow("Image", img)
     cv2.imshow("Output", imgBackground)
-    cv2.waitKey(1)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
