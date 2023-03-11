@@ -18,6 +18,4 @@ while True:
     # Display
     # cv2.imshow("Image", img)
     cv2.imshow("Output", imgBackground)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
-
+    cv2.waitKey(1)
