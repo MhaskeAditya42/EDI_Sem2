@@ -1,7 +1,7 @@
-0 Nothing
-1 Plastic
-2 Paper
-3 Trash
-4 Glass
-5 Cardboard
-6 Metal
+0 Plastic
+1 Paper
+2 E-Waste
+3 Clothes
+4 Organic
+5 Glass
+6 Batteries
