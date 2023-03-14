@@ -75,7 +75,7 @@ section.header {
 section.aboutRGW{ 
     height: 500px;
     width: 100%;
-    background-image: url(bg10.webp);
+    background-image: url(/Images/bg10.webp);
     background-position: center;
     background-size: cover;
     position: relative;
