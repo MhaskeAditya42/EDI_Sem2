@@ -1,3 +1,2 @@
 0 Dry
 1 Wet
-2 Nothing

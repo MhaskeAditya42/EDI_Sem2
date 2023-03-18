@@ -4,7 +4,7 @@ import cvzone
 from cvzone.ClassificationModule import Classifier
 
 cap = cv2.VideoCapture(0)
-Classifier = Classifier('Resources/Model/keras_model_Latest.h5', 'Resources/Model/labels.txt')
+Classifier = Classifier('Resources/Model/keras_model.h5', 'Resources/Model/labels.txt')
 imgArrow = cv2.imread("Resources/arrow.png", cv2.IMREAD_UNCHANGED)
 classIDBin = 0
 
@@ -24,9 +24,8 @@ pathList = os.listdir(pathFolderBins)
 for path in pathList:
     imgBinsList.append(cv2.imread(os.path.join(pathFolderBins, path), cv2.IMREAD_UNCHANGED))
 
-classDic = {0:None,
-            1:0,
-            2:0,
+classDic = {1:0,
+            2:2,
             3:3,
             4:3,
             5:1,
