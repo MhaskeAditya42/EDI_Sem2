@@ -1,0 +1,7 @@
+0 Paper and Cardboard Waste
+1 Metallic Waste
+2 Organic Waste
+3 Nothing
+4 Used Clothes
+5 E-Waste
+6 Plastic Waste
